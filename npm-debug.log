@@ -1,0 +1,620 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'express-generator' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData express-generator
+8 silly fetchNamedPackageData express-generator
+9 silly mapToRegistry name express-generator
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'express-generator',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'express-generator',
+12 silly mapToRegistry   name: 'express-generator',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/express-generator
+14 verbose request uri https://registry.npmjs.org/express-generator
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 7:37:01 PM
+17 verbose request id ad7ad534c51bafc5
+18 verbose etag W/"592f1dfa-9ed9"
+19 verbose lastModified Wed, 31 May 2017 19:48:10 GMT
+20 http request GET https://registry.npmjs.org/express-generator
+21 http 304 https://registry.npmjs.org/express-generator
+22 verbose headers { date: 'Sun, 25 Jun 2017 15:07:02 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"592f1dfa-9ed9"',
+22 verbose headers   age: '0',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-fra1234-FRA',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1498403222.418311,VS0,VE60',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Sun, 25 Jun 2017 15:07:02 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"592f1dfa-9ed9"',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-fra1234-FRA',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1498403222.418311,VS0,VE60',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose etag https://registry.npmjs.org/express-generator from cache
+25 verbose get saving express-generator to /home/fardabara/.npm/registry.npmjs.org/express-generator/.cache.json
+26 verbose correctMkdir /home/fardabara/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule express-generator@4.15.0 checking installable status
+40 silly cache add args [ 'express-generator', null ]
+41 verbose cache add spec express-generator
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'express-generator',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'express-generator',
+42 silly cache add   name: 'express-generator',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed express-generator@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for express-generator
+45 info addNameTag [ 'express-generator', 'latest' ]
+46 silly mapToRegistry name express-generator
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'express-generator',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'express-generator',
+49 silly mapToRegistry   name: 'express-generator',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/express-generator
+51 verbose addNameTag registry:https://registry.npmjs.org/express-generator not in flight; fetching
+52 verbose get https://registry.npmjs.org/express-generator not expired, no request
+53 silly addNameTag next cb for express-generator with tag latest
+54 silly addNamed express-generator@4.15.0
+55 verbose addNamed "4.15.0" is a plain semver version for express-generator
+56 silly cache afterAdd express-generator@4.15.0
+57 verbose afterAdd /home/fardabara/.npm/express-generator/4.15.0/package/package.json not in flight; writing
+58 verbose correctMkdir /home/fardabara/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /home/fardabara/.npm/express-generator/4.15.0/package/package.json written
+60 silly fetchNamedPackageData commander
+61 silly mapToRegistry name commander
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'commander',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'commander',
+64 silly mapToRegistry   name: 'commander',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/commander
+66 silly fetchNamedPackageData ejs
+67 silly mapToRegistry name ejs
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'ejs',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   escapedName: 'ejs',
+70 silly mapToRegistry   name: 'ejs',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri https://registry.npmjs.org/ejs
+72 silly fetchNamedPackageData mkdirp
+73 silly mapToRegistry name mkdirp
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'mkdirp',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'mkdirp',
+76 silly mapToRegistry   name: 'mkdirp',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+78 silly fetchNamedPackageData sorted-object
+79 silly mapToRegistry name sorted-object
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'sorted-object',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'sorted-object',
+82 silly mapToRegistry   name: 'sorted-object',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/sorted-object
+84 verbose request uri https://registry.npmjs.org/commander
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 7:37:02 PM
+87 verbose etag W/"594f68da-10c3b"
+88 verbose lastModified Sun, 25 Jun 2017 07:40:10 GMT
+89 http request GET https://registry.npmjs.org/commander
+90 verbose request uri https://registry.npmjs.org/mkdirp
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 7:37:02 PM
+93 verbose etag W/"594e8a98-64ad"
+94 verbose lastModified Sat, 24 Jun 2017 15:51:52 GMT
+95 http request GET https://registry.npmjs.org/mkdirp
+96 verbose request uri https://registry.npmjs.org/sorted-object
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 7:37:02 PM
+99 verbose etag W/"57d499b1-1545"
+100 verbose lastModified Sat, 10 Sep 2016 23:39:29 GMT
+101 http request GET https://registry.npmjs.org/sorted-object
+102 verbose request uri https://registry.npmjs.org/ejs
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 7:37:02 PM
+105 verbose etag W/"59477a14-10ac9"
+106 verbose lastModified Mon, 19 Jun 2017 07:15:32 GMT
+107 http request GET https://registry.npmjs.org/ejs
+108 http 304 https://registry.npmjs.org/commander
+109 verbose headers { date: 'Sun, 25 Jun 2017 15:07:02 GMT',
+109 verbose headers   via: '1.1 varnish',
+109 verbose headers   'cache-control': 'max-age=300',
+109 verbose headers   etag: 'W/"594f68da-10c3b"',
+109 verbose headers   age: '230',
+109 verbose headers   connection: 'keep-alive',
+109 verbose headers   'x-served-by': 'cache-fra1234-FRA',
+109 verbose headers   'x-cache': 'HIT',
+109 verbose headers   'x-cache-hits': '2',
+109 verbose headers   'x-timer': 'S1498403223.798192,VS0,VE0',
+109 verbose headers   vary: 'Accept-Encoding' }
+110 silly get cb [ 304,
+110 silly get   { date: 'Sun, 25 Jun 2017 15:07:02 GMT',
+110 silly get     via: '1.1 varnish',
+110 silly get     'cache-control': 'max-age=300',
+110 silly get     etag: 'W/"594f68da-10c3b"',
+110 silly get     age: '230',
+110 silly get     connection: 'keep-alive',
+110 silly get     'x-served-by': 'cache-fra1234-FRA',
+110 silly get     'x-cache': 'HIT',
+110 silly get     'x-cache-hits': '2',
+110 silly get     'x-timer': 'S1498403223.798192,VS0,VE0',
+110 silly get     vary: 'Accept-Encoding' } ]
+111 verbose etag https://registry.npmjs.org/commander from cache
+112 verbose get saving commander to /home/fardabara/.npm/registry.npmjs.org/commander/.cache.json
+113 verbose correctMkdir /home/fardabara/.npm correctMkdir not in flight; initializing
+114 silly resolveWithNewModule commander@2.9.0 checking installable status
+115 silly cache add args [ 'commander@2.9.0', null ]
+116 verbose cache add spec commander@2.9.0
+117 silly cache add parsed spec Result {
+117 silly cache add   raw: 'commander@2.9.0',
+117 silly cache add   scope: null,
+117 silly cache add   escapedName: 'commander',
+117 silly cache add   name: 'commander',
+117 silly cache add   rawSpec: '2.9.0',
+117 silly cache add   spec: '2.9.0',
+117 silly cache add   type: 'version' }
+118 silly addNamed commander@2.9.0
+119 verbose addNamed "2.9.0" is a plain semver version for commander
+120 silly mapToRegistry name commander
+121 silly mapToRegistry using default registry
+122 silly mapToRegistry registry https://registry.npmjs.org/
+123 silly mapToRegistry data Result {
+123 silly mapToRegistry   raw: 'commander',
+123 silly mapToRegistry   scope: null,
+123 silly mapToRegistry   escapedName: 'commander',
+123 silly mapToRegistry   name: 'commander',
+123 silly mapToRegistry   rawSpec: '',
+123 silly mapToRegistry   spec: 'latest',
+123 silly mapToRegistry   type: 'tag' }
+124 silly mapToRegistry uri https://registry.npmjs.org/commander
+125 verbose addNameVersion registry:https://registry.npmjs.org/commander not in flight; fetching
+126 verbose get https://registry.npmjs.org/commander not expired, no request
+127 silly cache afterAdd commander@2.9.0
+128 verbose afterAdd /home/fardabara/.npm/commander/2.9.0/package/package.json not in flight; writing
+129 verbose correctMkdir /home/fardabara/.npm correctMkdir not in flight; initializing
+130 verbose afterAdd /home/fardabara/.npm/commander/2.9.0/package/package.json written
+131 http 304 https://registry.npmjs.org/ejs
+132 verbose headers { date: 'Sun, 25 Jun 2017 15:07:03 GMT',
+132 verbose headers   via: '1.1 varnish',
+132 verbose headers   'cache-control': 'max-age=300',
+132 verbose headers   etag: 'W/"59477a14-10ac9"',
+132 verbose headers   age: '0',
+132 verbose headers   connection: 'keep-alive',
+132 verbose headers   'x-served-by': 'cache-fjr7920-FJR',
+132 verbose headers   'x-cache': 'MISS',
+132 verbose headers   'x-cache-hits': '0',
+132 verbose headers   'x-timer': 'S1498403224.774777,VS0,VE471',
+132 verbose headers   vary: 'Accept-Encoding' }
+133 silly get cb [ 304,
+133 silly get   { date: 'Sun, 25 Jun 2017 15:07:03 GMT',
+133 silly get     via: '1.1 varnish',
+133 silly get     'cache-control': 'max-age=300',
+133 silly get     etag: 'W/"59477a14-10ac9"',
+133 silly get     age: '0',
+133 silly get     connection: 'keep-alive',
+133 silly get     'x-served-by': 'cache-fjr7920-FJR',
+133 silly get     'x-cache': 'MISS',
+133 silly get     'x-cache-hits': '0',
+133 silly get     'x-timer': 'S1498403224.774777,VS0,VE471',
+133 silly get     vary: 'Accept-Encoding' } ]
+134 verbose etag https://registry.npmjs.org/ejs from cache
+135 verbose get saving ejs to /home/fardabara/.npm/registry.npmjs.org/ejs/.cache.json
+136 verbose correctMkdir /home/fardabara/.npm correctMkdir not in flight; initializing
+137 silly resolveWithNewModule ejs@2.5.6 checking installable status
+138 silly cache add args [ 'ejs@2.5.6', null ]
+139 verbose cache add spec ejs@2.5.6
+140 silly cache add parsed spec Result {
+140 silly cache add   raw: 'ejs@2.5.6',
+140 silly cache add   scope: null,
+140 silly cache add   escapedName: 'ejs',
+140 silly cache add   name: 'ejs',
+140 silly cache add   rawSpec: '2.5.6',
+140 silly cache add   spec: '2.5.6',
+140 silly cache add   type: 'version' }
+141 silly addNamed ejs@2.5.6
+142 verbose addNamed "2.5.6" is a plain semver version for ejs
+143 silly mapToRegistry name ejs
+144 silly mapToRegistry using default registry
+145 silly mapToRegistry registry https://registry.npmjs.org/
+146 silly mapToRegistry data Result {
+146 silly mapToRegistry   raw: 'ejs',
+146 silly mapToRegistry   scope: null,
+146 silly mapToRegistry   escapedName: 'ejs',
+146 silly mapToRegistry   name: 'ejs',
+146 silly mapToRegistry   rawSpec: '',
+146 silly mapToRegistry   spec: 'latest',
+146 silly mapToRegistry   type: 'tag' }
+147 silly mapToRegistry uri https://registry.npmjs.org/ejs
+148 verbose addNameVersion registry:https://registry.npmjs.org/ejs not in flight; fetching
+149 verbose get https://registry.npmjs.org/ejs not expired, no request
+150 silly cache afterAdd ejs@2.5.6
+151 verbose afterAdd /home/fardabara/.npm/ejs/2.5.6/package/package.json not in flight; writing
+152 verbose correctMkdir /home/fardabara/.npm correctMkdir not in flight; initializing
+153 verbose afterAdd /home/fardabara/.npm/ejs/2.5.6/package/package.json written
+154 http 304 https://registry.npmjs.org/mkdirp
+155 verbose headers { date: 'Sun, 25 Jun 2017 15:07:03 GMT',
+155 verbose headers   via: '1.1 varnish',
+155 verbose headers   'cache-control': 'max-age=300',
+155 verbose headers   etag: 'W/"594e8a98-64ad"',
+155 verbose headers   age: '0',
+155 verbose headers   connection: 'keep-alive',
+155 verbose headers   'x-served-by': 'cache-fjr7922-FJR',
+155 verbose headers   'x-cache': 'HIT',
+155 verbose headers   'x-cache-hits': '1',
+155 verbose headers   'x-timer': 'S1498403224.885977,VS0,VE496',
+155 verbose headers   vary: 'Accept-Encoding' }
+156 silly get cb [ 304,
+156 silly get   { date: 'Sun, 25 Jun 2017 15:07:03 GMT',
+156 silly get     via: '1.1 varnish',
+156 silly get     'cache-control': 'max-age=300',
+156 silly get     etag: 'W/"594e8a98-64ad"',
+156 silly get     age: '0',
+156 silly get     connection: 'keep-alive',
+156 silly get     'x-served-by': 'cache-fjr7922-FJR',
+156 silly get     'x-cache': 'HIT',
+156 silly get     'x-cache-hits': '1',
+156 silly get     'x-timer': 'S1498403224.885977,VS0,VE496',
+156 silly get     vary: 'Accept-Encoding' } ]
+157 verbose etag https://registry.npmjs.org/mkdirp from cache
+158 verbose get saving mkdirp to /home/fardabara/.npm/registry.npmjs.org/mkdirp/.cache.json
+159 verbose correctMkdir /home/fardabara/.npm correctMkdir not in flight; initializing
+160 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+161 silly cache add args [ 'mkdirp@0.5.1', null ]
+162 verbose cache add spec mkdirp@0.5.1
+163 silly cache add parsed spec Result {
+163 silly cache add   raw: 'mkdirp@0.5.1',
+163 silly cache add   scope: null,
+163 silly cache add   escapedName: 'mkdirp',
+163 silly cache add   name: 'mkdirp',
+163 silly cache add   rawSpec: '0.5.1',
+163 silly cache add   spec: '0.5.1',
+163 silly cache add   type: 'version' }
+164 silly addNamed mkdirp@0.5.1
+165 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+166 silly mapToRegistry name mkdirp
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry data Result {
+169 silly mapToRegistry   raw: 'mkdirp',
+169 silly mapToRegistry   scope: null,
+169 silly mapToRegistry   escapedName: 'mkdirp',
+169 silly mapToRegistry   name: 'mkdirp',
+169 silly mapToRegistry   rawSpec: '',
+169 silly mapToRegistry   spec: 'latest',
+169 silly mapToRegistry   type: 'tag' }
+170 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+171 verbose addNameVersion registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+172 verbose get https://registry.npmjs.org/mkdirp not expired, no request
+173 silly cache afterAdd mkdirp@0.5.1
+174 verbose afterAdd /home/fardabara/.npm/mkdirp/0.5.1/package/package.json not in flight; writing
+175 verbose correctMkdir /home/fardabara/.npm correctMkdir not in flight; initializing
+176 verbose afterAdd /home/fardabara/.npm/mkdirp/0.5.1/package/package.json written
+177 http 304 https://registry.npmjs.org/sorted-object
+178 verbose headers { date: 'Sun, 25 Jun 2017 15:07:03 GMT',
+178 verbose headers   via: '1.1 varnish',
+178 verbose headers   'cache-control': 'max-age=300',
+178 verbose headers   etag: 'W/"57d499b1-1545"',
+178 verbose headers   age: '0',
+178 verbose headers   connection: 'keep-alive',
+178 verbose headers   'x-served-by': 'cache-fjr7923-FJR',
+178 verbose headers   'x-cache': 'MISS',
+178 verbose headers   'x-cache-hits': '0',
+178 verbose headers   'x-timer': 'S1498403224.926995,VS0,VE487',
+178 verbose headers   vary: 'Accept-Encoding' }
+179 silly get cb [ 304,
+179 silly get   { date: 'Sun, 25 Jun 2017 15:07:03 GMT',
+179 silly get     via: '1.1 varnish',
+179 silly get     'cache-control': 'max-age=300',
+179 silly get     etag: 'W/"57d499b1-1545"',
+179 silly get     age: '0',
+179 silly get     connection: 'keep-alive',
+179 silly get     'x-served-by': 'cache-fjr7923-FJR',
+179 silly get     'x-cache': 'MISS',
+179 silly get     'x-cache-hits': '0',
+179 silly get     'x-timer': 'S1498403224.926995,VS0,VE487',
+179 silly get     vary: 'Accept-Encoding' } ]
+180 verbose etag https://registry.npmjs.org/sorted-object from cache
+181 verbose get saving sorted-object to /home/fardabara/.npm/registry.npmjs.org/sorted-object/.cache.json
+182 verbose correctMkdir /home/fardabara/.npm correctMkdir not in flight; initializing
+183 silly resolveWithNewModule sorted-object@2.0.1 checking installable status
+184 silly cache add args [ 'sorted-object@2.0.1', null ]
+185 verbose cache add spec sorted-object@2.0.1
+186 silly cache add parsed spec Result {
+186 silly cache add   raw: 'sorted-object@2.0.1',
+186 silly cache add   scope: null,
+186 silly cache add   escapedName: 'sorted-object',
+186 silly cache add   name: 'sorted-object',
+186 silly cache add   rawSpec: '2.0.1',
+186 silly cache add   spec: '2.0.1',
+186 silly cache add   type: 'version' }
+187 silly addNamed sorted-object@2.0.1
+188 verbose addNamed "2.0.1" is a plain semver version for sorted-object
+189 silly mapToRegistry name sorted-object
+190 silly mapToRegistry using default registry
+191 silly mapToRegistry registry https://registry.npmjs.org/
+192 silly mapToRegistry data Result {
+192 silly mapToRegistry   raw: 'sorted-object',
+192 silly mapToRegistry   scope: null,
+192 silly mapToRegistry   escapedName: 'sorted-object',
+192 silly mapToRegistry   name: 'sorted-object',
+192 silly mapToRegistry   rawSpec: '',
+192 silly mapToRegistry   spec: 'latest',
+192 silly mapToRegistry   type: 'tag' }
+193 silly mapToRegistry uri https://registry.npmjs.org/sorted-object
+194 verbose addNameVersion registry:https://registry.npmjs.org/sorted-object not in flight; fetching
+195 verbose get https://registry.npmjs.org/sorted-object not expired, no request
+196 silly cache afterAdd sorted-object@2.0.1
+197 verbose afterAdd /home/fardabara/.npm/sorted-object/2.0.1/package/package.json not in flight; writing
+198 verbose correctMkdir /home/fardabara/.npm correctMkdir not in flight; initializing
+199 verbose afterAdd /home/fardabara/.npm/sorted-object/2.0.1/package/package.json written
+200 silly fetchNamedPackageData graceful-readlink
+201 silly mapToRegistry name graceful-readlink
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry data Result {
+204 silly mapToRegistry   raw: 'graceful-readlink',
+204 silly mapToRegistry   scope: null,
+204 silly mapToRegistry   escapedName: 'graceful-readlink',
+204 silly mapToRegistry   name: 'graceful-readlink',
+204 silly mapToRegistry   rawSpec: '',
+204 silly mapToRegistry   spec: 'latest',
+204 silly mapToRegistry   type: 'tag' }
+205 silly mapToRegistry uri https://registry.npmjs.org/graceful-readlink
+206 verbose request uri https://registry.npmjs.org/graceful-readlink
+207 verbose request no auth needed
+208 info attempt registry request try #1 at 7:37:04 PM
+209 verbose etag W/"585ef90e-c1b"
+210 verbose lastModified Sat, 24 Dec 2016 22:39:10 GMT
+211 http request GET https://registry.npmjs.org/graceful-readlink
+212 http 304 https://registry.npmjs.org/graceful-readlink
+213 verbose headers { date: 'Sun, 25 Jun 2017 15:07:04 GMT',
+213 verbose headers   via: '1.1 varnish',
+213 verbose headers   'cache-control': 'max-age=300',
+213 verbose headers   etag: 'W/"585ef90e-c1b"',
+213 verbose headers   age: '23',
+213 verbose headers   connection: 'keep-alive',
+213 verbose headers   'x-served-by': 'cache-fra1234-FRA',
+213 verbose headers   'x-cache': 'HIT',
+213 verbose headers   'x-cache-hits': '1',
+213 verbose headers   'x-timer': 'S1498403225.766295,VS0,VE0',
+213 verbose headers   vary: 'Accept-Encoding' }
+214 silly get cb [ 304,
+214 silly get   { date: 'Sun, 25 Jun 2017 15:07:04 GMT',
+214 silly get     via: '1.1 varnish',
+214 silly get     'cache-control': 'max-age=300',
+214 silly get     etag: 'W/"585ef90e-c1b"',
+214 silly get     age: '23',
+214 silly get     connection: 'keep-alive',
+214 silly get     'x-served-by': 'cache-fra1234-FRA',
+214 silly get     'x-cache': 'HIT',
+214 silly get     'x-cache-hits': '1',
+214 silly get     'x-timer': 'S1498403225.766295,VS0,VE0',
+214 silly get     vary: 'Accept-Encoding' } ]
+215 verbose etag https://registry.npmjs.org/graceful-readlink from cache
+216 verbose get saving graceful-readlink to /home/fardabara/.npm/registry.npmjs.org/graceful-readlink/.cache.json
+217 verbose correctMkdir /home/fardabara/.npm correctMkdir not in flight; initializing
+218 silly resolveWithNewModule graceful-readlink@1.0.1 checking installable status
+219 silly cache add args [ 'graceful-readlink@>= 1.0.0', null ]
+220 verbose cache add spec graceful-readlink@>= 1.0.0
+221 silly cache add parsed spec Result {
+221 silly cache add   raw: 'graceful-readlink@>= 1.0.0',
+221 silly cache add   scope: null,
+221 silly cache add   escapedName: 'graceful-readlink',
+221 silly cache add   name: 'graceful-readlink',
+221 silly cache add   rawSpec: '>= 1.0.0',
+221 silly cache add   spec: '>=1.0.0',
+221 silly cache add   type: 'range' }
+222 silly addNamed graceful-readlink@>=1.0.0
+223 verbose addNamed ">=1.0.0" is a valid semver range for graceful-readlink
+224 silly addNameRange { name: 'graceful-readlink', range: '>=1.0.0', hasData: false }
+225 silly mapToRegistry name graceful-readlink
+226 silly mapToRegistry using default registry
+227 silly mapToRegistry registry https://registry.npmjs.org/
+228 silly mapToRegistry data Result {
+228 silly mapToRegistry   raw: 'graceful-readlink',
+228 silly mapToRegistry   scope: null,
+228 silly mapToRegistry   escapedName: 'graceful-readlink',
+228 silly mapToRegistry   name: 'graceful-readlink',
+228 silly mapToRegistry   rawSpec: '',
+228 silly mapToRegistry   spec: 'latest',
+228 silly mapToRegistry   type: 'tag' }
+229 silly mapToRegistry uri https://registry.npmjs.org/graceful-readlink
+230 verbose addNameRange registry:https://registry.npmjs.org/graceful-readlink not in flight; fetching
+231 verbose get https://registry.npmjs.org/graceful-readlink not expired, no request
+232 silly addNameRange number 2 { name: 'graceful-readlink', range: '>=1.0.0', hasData: true }
+233 silly addNameRange versions [ 'graceful-readlink', [ '1.0.0', '1.0.1' ] ]
+234 silly addNamed graceful-readlink@1.0.1
+235 verbose addNamed "1.0.1" is a plain semver version for graceful-readlink
+236 silly cache afterAdd graceful-readlink@1.0.1
+237 verbose afterAdd /home/fardabara/.npm/graceful-readlink/1.0.1/package/package.json not in flight; writing
+238 verbose correctMkdir /home/fardabara/.npm correctMkdir not in flight; initializing
+239 verbose afterAdd /home/fardabara/.npm/graceful-readlink/1.0.1/package/package.json written
+240 silly fetchNamedPackageData minimist
+241 silly mapToRegistry name minimist
+242 silly mapToRegistry using default registry
+243 silly mapToRegistry registry https://registry.npmjs.org/
+244 silly mapToRegistry data Result {
+244 silly mapToRegistry   raw: 'minimist',
+244 silly mapToRegistry   scope: null,
+244 silly mapToRegistry   escapedName: 'minimist',
+244 silly mapToRegistry   name: 'minimist',
+244 silly mapToRegistry   rawSpec: '',
+244 silly mapToRegistry   spec: 'latest',
+244 silly mapToRegistry   type: 'tag' }
+245 silly mapToRegistry uri https://registry.npmjs.org/minimist
+246 verbose request uri https://registry.npmjs.org/minimist
+247 verbose request no auth needed
+248 info attempt registry request try #1 at 7:37:04 PM
+249 verbose etag W/"594ce226-7639"
+250 verbose lastModified Fri, 23 Jun 2017 09:40:54 GMT
+251 http request GET https://registry.npmjs.org/minimist
+252 http 304 https://registry.npmjs.org/minimist
+253 verbose headers { date: 'Sun, 25 Jun 2017 15:07:05 GMT',
+253 verbose headers   via: '1.1 varnish',
+253 verbose headers   'cache-control': 'max-age=300',
+253 verbose headers   etag: 'W/"594ce226-7639"',
+253 verbose headers   age: '0',
+253 verbose headers   connection: 'keep-alive',
+253 verbose headers   'x-served-by': 'cache-fjr7920-FJR',
+253 verbose headers   'x-cache': 'HIT',
+253 verbose headers   'x-cache-hits': '1',
+253 verbose headers   'x-timer': 'S1498403225.027718,VS0,VE475',
+253 verbose headers   vary: 'Accept-Encoding' }
+254 silly get cb [ 304,
+254 silly get   { date: 'Sun, 25 Jun 2017 15:07:05 GMT',
+254 silly get     via: '1.1 varnish',
+254 silly get     'cache-control': 'max-age=300',
+254 silly get     etag: 'W/"594ce226-7639"',
+254 silly get     age: '0',
+254 silly get     connection: 'keep-alive',
+254 silly get     'x-served-by': 'cache-fjr7920-FJR',
+254 silly get     'x-cache': 'HIT',
+254 silly get     'x-cache-hits': '1',
+254 silly get     'x-timer': 'S1498403225.027718,VS0,VE475',
+254 silly get     vary: 'Accept-Encoding' } ]
+255 verbose etag https://registry.npmjs.org/minimist from cache
+256 verbose get saving minimist to /home/fardabara/.npm/registry.npmjs.org/minimist/.cache.json
+257 verbose correctMkdir /home/fardabara/.npm correctMkdir not in flight; initializing
+258 silly resolveWithNewModule minimist@0.0.8 checking installable status
+259 silly cache add args [ 'minimist@0.0.8', null ]
+260 verbose cache add spec minimist@0.0.8
+261 silly cache add parsed spec Result {
+261 silly cache add   raw: 'minimist@0.0.8',
+261 silly cache add   scope: null,
+261 silly cache add   escapedName: 'minimist',
+261 silly cache add   name: 'minimist',
+261 silly cache add   rawSpec: '0.0.8',
+261 silly cache add   spec: '0.0.8',
+261 silly cache add   type: 'version' }
+262 silly addNamed minimist@0.0.8
+263 verbose addNamed "0.0.8" is a plain semver version for minimist
+264 silly mapToRegistry name minimist
+265 silly mapToRegistry using default registry
+266 silly mapToRegistry registry https://registry.npmjs.org/
+267 silly mapToRegistry data Result {
+267 silly mapToRegistry   raw: 'minimist',
+267 silly mapToRegistry   scope: null,
+267 silly mapToRegistry   escapedName: 'minimist',
+267 silly mapToRegistry   name: 'minimist',
+267 silly mapToRegistry   rawSpec: '',
+267 silly mapToRegistry   spec: 'latest',
+267 silly mapToRegistry   type: 'tag' }
+268 silly mapToRegistry uri https://registry.npmjs.org/minimist
+269 verbose addNameVersion registry:https://registry.npmjs.org/minimist not in flight; fetching
+270 verbose get https://registry.npmjs.org/minimist not expired, no request
+271 silly cache afterAdd minimist@0.0.8
+272 verbose afterAdd /home/fardabara/.npm/minimist/0.0.8/package/package.json not in flight; writing
+273 verbose correctMkdir /home/fardabara/.npm correctMkdir not in flight; initializing
+274 verbose afterAdd /home/fardabara/.npm/minimist/0.0.8/package/package.json written
+275 silly loadAllDepsIntoIdealTree Finishing
+276 silly loadIdealTree Finishing
+277 silly currentTree lib
+277 silly currentTree └─┬ express-generator@4.15.0
+277 silly currentTree   ├── commander@2.9.0
+277 silly currentTree   ├── ejs@2.5.6
+277 silly currentTree   ├── graceful-readlink@1.0.1
+277 silly currentTree   ├── minimist@0.0.8
+277 silly currentTree   ├── mkdirp@0.5.1
+277 silly currentTree   └── sorted-object@2.0.1
+278 silly idealTree lib
+278 silly idealTree └─┬ express-generator@4.15.0
+278 silly idealTree   ├── commander@2.9.0
+278 silly idealTree   ├── ejs@2.5.6
+278 silly idealTree   ├── graceful-readlink@1.0.1
+278 silly idealTree   ├── minimist@0.0.8
+278 silly idealTree   ├── mkdirp@0.5.1
+278 silly idealTree   └── sorted-object@2.0.1
+279 silly generateActionsToTake Starting
+280 silly install generateActionsToTake
+281 warn checkPermissions Missing write access to /usr/lib/node_modules/express-generator
+282 warn checkPermissions Missing write access to /usr/lib/node_modules
+283 silly rollbackFailedOptional Starting
+284 silly rollbackFailedOptional Finishing
+285 silly runTopLevelLifecycles Finishing
+286 silly install printInstalled
+287 verbose stack Error: EACCES: permission denied, access '/usr/lib/node_modules/express-generator'
+287 verbose stack     at Error (native)
+288 verbose cwd /var/www/html/courses/NODE/nodeMVC
+289 error Linux 4.8.0-52-generic
+290 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "express-generator"
+291 error node v6.10.3
+292 error npm  v3.10.10
+293 error path /usr/lib/node_modules/express-generator
+294 error code EACCES
+295 error errno -13
+296 error syscall access
+297 error Error: EACCES: permission denied, access '/usr/lib/node_modules/express-generator'
+297 error     at Error (native)
+297 error  { Error: EACCES: permission denied, access '/usr/lib/node_modules/express-generator'
+297 error     at Error (native)
+297 error   errno: -13,
+297 error   code: 'EACCES',
+297 error   syscall: 'access',
+297 error   path: '/usr/lib/node_modules/express-generator' }
+298 error Please try running this command again as root/Administrator.
+299 verbose exit [ -13, true ]
