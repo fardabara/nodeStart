@@ -1,46 +1,42 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
+var lib = require('./include/lib');
+/*************** S L A S H ****************/
 
-var index = require('./routes/index');
-var users = require('./routes/users');
 
-var app = express();
 
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+/******Use Config******/
+lib.app.use(lib.express.static(lib.path.join(__dirname, 'public')));
+lib.app.use(lib.bodyParser.urlencoded({extended: false}));
+lib.app.use(lib.bodyParser.json({keepExtensions: true, uploadDir: './upload_files'}));
+lib.app.use(lib.cookieParser());
+lib.app.use(lib.session({secret: '123456789'}));
 
-// uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(logger('dev'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', index);
-app.use('/users', users);
+/**********Set Config********/
+lib.app.set('views', lib.path.join(__dirname, 'views'));
+lib.app.set('view engine', 'jade');
 
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  var err = new Error('Not Found');
-  err.status = 404;
-  next(err);
+
+/*****Routes*****/
+lib.fs.readdirSync(lib.path.join(__dirname,'/Routers')).forEach(function (item) {
+    if (item.substr(-3) == '.js') {
+        require('./Routers/'+item)(lib.app);
+    }else{
+        console.log("file is not a js");
+    }
 });
 
-// error handler
-app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-  // render the error page
-  res.status(err.status || 500);
-  res.render('error');
+/***** Page Not Found *****/
+lib.app.set('port', lib.port);
+lib.app.use(function (req, res , next) {
+    console.log("Not Found");
+    var err = new Error('Page Not Found');
+    err.status = 404;
+    next(err);
 });
 
-module.exports = app;
+
+/***** Listen Port *****/
+lib.app.listen(lib.port, function () {
+    console.log("Listen to port:", lib.port);
+});
