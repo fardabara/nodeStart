@@ -1,0 +1,77 @@
+{
+    "development": {
+    "api": "AAAAhUR1N0U:APA91bEG1MdKLKifWpwioIogd-hbORs6Tl90JANwd0JXT_tZGTRKHa5RLUneu-r04TIL0Q68DNBK4DQtpyXuFy5Uff4VeqvcXb5KEw6ko-0mS-r7QfRaYGArwqL8emMfeeqjVz_JZQ-X",
+        "app": {
+        "name": "85",
+            "version": "1.0.0",
+            "copyrightYear": "2017",
+            "copyrightText": "all rights reserved by ATD",
+            "sessionKey": "test_project_sid"
+    },
+
+    "db": {
+        "host": "localhost",
+            "user": "root",
+            "dialect": "mysql",
+            "pass": "1",
+            "database": "farhad"
+    },
+
+    "sms" : {
+        "name" : "almassms",
+            "url": "http://sms.3300.ir/almassms.asmx?wsdl",
+            "user": "nwa9033",
+            "pass": "11111111"
+    },
+
+    "payment": {
+        "name": "parspal",
+            "url": "http://merchant.parspal.com/WebService.asmx?wsdl",
+            "user": "14110437",
+            "pass": "shahin1246831"
+    },
+
+    "host": {
+        "domain": "localhost",
+            "port": "8585"
+    }
+
+},
+
+    "production": {
+    "api": "AAAAhUR1N0U:APA91bEG1MdKLKifWpwioIogd-hbORs6Tl90JANwd0JXT_tZGTRKHa5RLUneu-r04TIL0Q68DNBK4DQtpyXuFy5Uff4VeqvcXb5KEw6ko-0mS-r7QfRaYGArwqL8emMfeeqjVz_JZQ-X",
+        "app": {
+        "name": "Appex",
+            "version": "1.0.0",
+            "copyrightYear": "2017",
+            "copyrightText": "all rights reserved by ATD",
+            "sessionKey": "test_project_sid"
+    },
+
+    "db": {
+        "host": "localhost",
+            "user": "root",
+            "pass": "",
+            "database": "85"
+    },
+
+    "sms" : {
+        "name" : "almassms",
+            "url": "http://sms.3300.ir/almassms.asmx?wsdl",
+            "user": "nwa9033",
+            "pass": "11111111"
+    },
+
+    "payment": {
+        "name": "parspal",
+            "url": "http://merchant.parspal.com/WebService.asmx?wsdl",
+            "user": "14110437",
+            "pass": "shahin1246831"
+    },
+
+    "host": {
+        "domain": "localhost",
+            "port": "8585"
+    }
+}
+}
